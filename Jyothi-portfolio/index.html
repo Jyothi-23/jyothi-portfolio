@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyothi V | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-green-600">Jyothi V</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="hover:text-green-600 transition">About</a>
+                <a href="#education" class="hover:text-green-600 transition">Education</a>
+                <a href="#skills" class="hover:text-green-600 transition">Skills</a>
+                <a href="#projects" class="hover:text-green-600 transition">Projects</a>
+                <a href="#certifications" class="hover:text-green-600 transition">Certifications</a>
+                <a href="#contact" class="hover:text-green-600 transition">Contact</a>
+            </div>
+            <button id="resumeBtn" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition">
+                <i class="fas fa-download mr-2"></i>Resume
+                <a href="assets/Jyothi V_Resume.pdf" download class="hidden">Download</a>
+            </button>
+            <div class="md:hidden">
+                <button id="mobileMenuBtn" class="text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="md:hidden hidden bg-white py-2 px-4 shadow-lg">
+            <a href="#about" class="block py-2 hover:text-green-600">About</a>
+            <a href="#education" class="block py-2 hover:text-green-600">Education</a>
+            <a href="#skills" class="block py-2 hover:text-green-600">Skills</a>
+            <a href="#projects" class="block py-2 hover:text-green-600">Projects</a>
+            <a href="#certifications" class="block py-2 hover:text-green-600">Certifications</a>
+            <a href="#contact" class="block py-2 hover:text-green-600">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-gradient-to-r from-green-50 to-blue-50">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-green-600">Jyothi V</span></h1>
+                <p class="text-xl mb-6">Aspiring Software Developer | Web Developer | Data Enthusiast</p>
+                <p class="text-gray-600 mb-8">Enthusiastic and detail-oriented Software Developer Fresher with a strong foundation in programming, web development, and database management.</p>
+                <div class="flex space-x-4">
+                    <a href="#projects" class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">View Projects</a>
+                    <a href="#contact" class="border border-green-600 text-green-600 px-6 py-3 rounded-md hover:bg-green-600 hover:text-white transition">Contact Me</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                    <img src="assets/Jyothi V_photo.jpg" alt="Jyothi V" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg mb-6">I'm an enthusiastic and detail-oriented Software Developer Fresher with a strong foundation in programming, web development, and database management. Passionate about problem-solving, learning emerging technologies, and developing efficient, user-friendly software solutions.</p>
+                <p class="text-lg mb-6">I'm eager to contribute to innovative projects and grow within a dynamic development team. My technical skills span across web technologies, programming languages, databases, and UI/UX design tools.</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold">Bachelor of Engineering</h3>
+                            <p class="text-gray-600">Computer Science and Engineering</p>
+                            <p class="text-gray-600">Jeppiaar Engineering College</p>
+                        </div>
+                        <div class="mt-2 md:mt-0">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">2021-2025</span>
+                            <p class="text-gray-600 mt-2">CGPA: 8.7</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold">Class XII (CBSE)</h3>
+                            <p class="text-gray-600">Govt Sr Sec School, North and Middle Andaman</p>
+                        </div>
+                        <div class="mt-2 md:mt-0">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">2020-2021</span>
+                            <p class="text-gray-600 mt-2">Percentage: 89%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold">Class X (CBSE)</h3>
+                            <p class="text-gray-600">Govt Sr Sec School, North and Middle Andaman</p>
+                        </div>
+                        <div class="mt-2 md:mt-0">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">2018-2019</span>
+                            <p class="text-gray-600 mt-2">Percentage: 84%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Web Technologies -->
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+                        <h3 class="text-xl font-bold mb-4 text-green-600">Web Technologies</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">HTML5</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">CSS3</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Programming Languages -->
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+                        <h3 class="text-xl font-bold mb-4 text-green-600">Programming Language</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Python</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Databases & Data Analytics -->
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+                        <h3 class="text-xl font-bold mb-4 text-green-600">Databases & Data Analytics</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">MySQL</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">MongoDB</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">MS Excel</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Power BI</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Data Analysis</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Data Visualization</span>
+                        </div>
+                    </div>
+                    
+                    <!-- UI/UX & Design Tools -->
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+                        <h3 class="text-xl font-bold mb-4 text-green-600">UI/UX & Design Tools</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Figma</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Canva</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools/Platforms -->
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-sm md:col-span-2">
+                        <h3 class="text-xl font-bold mb-4 text-green-600">Tools/Platforms</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Git</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">GitHub</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Jupyter Notebook</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">Google Colab</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">MySQL Workbench</span>
+                            <span class="bg-white px-3 py-1 rounded-md shadow-sm">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Movie Ticket Booking System</h3>
+                        <p class="text-gray-600 mb-4">Created a functional and interactive movie booking application demonstrating end-to-end integration of GUI development, Python scripting, and database connectivity.</p>
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-1">Tech Stack:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Python</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Tkinter</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">HarvestHub: AI-Powered Agricultural Marketplace</h3>
+                        <p class="text-gray-600 mb-4">Developed a web-based platform integrating AI and Deep Learning to connect farmers and buyers with crop recommendation and plant disease detection features.</p>
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-1">Tech Stack:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">HTML</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">CSS</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">JavaScript</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Python</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">TensorFlow</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Typing Speed Test App</h3>
+                        <p class="text-gray-600 mb-4">Developed an interactive web application that measures users' typing speed and accuracy in real time with WPM, CPM, and error count calculations.</p>
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-1">Tech Stack:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">HTML5</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">CSS3</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">Certifications</h2>
+            <div class="max-w-3xl mx-auto">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-green-600 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">Data Science</h3>
+                            <p class="text-gray-600">Besant Technologies, Chennai | Present</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-green-600 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">Deloitte Australia Data Analytics Job Simulation</h3>
+                            <p class="text-gray-600">Forage | Jun 2025</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-green-600 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">Introduction to Business Analysis Using Spreadsheets</h3>
+                            <p class="text-gray-600">Coursera | Aug 2023</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-green-600 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">Web Development Concepts</h3>
+                            <p class="text-gray-600">Infosys Springboard | July 2023</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-green-600 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">SQL Concepts & Queries</h3>
+                            <p class="text-gray-600">Infosys Springboard | July 2023</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-green-600 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">Python Object-Oriented Programming</h3>
+                            <p class="text-gray-600">LinkedIn Learning | Nov 2022</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gradient-to-r from-green-50 to-blue-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">Get In Touch</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-green-600 mr-3"></i>
+                            <span>jyothiv230@gmail.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-green-600 mr-3"></i>
+                            <span>+91 9531872003</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-linkedin text-green-600 mr-3"></i>
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/jyothi-v-a1088a247/" target="_blank" class="text-green-600 hover:underline ml-2">View Profile</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-github text-green-600 mr-3"></i>
+                            <span>GitHub</span>
+                            <a href="https://github.com/jyothiv230" target="_blank" class="text-green-600 hover:underline ml-2">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Send a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-1">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-1">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 Jyothi V. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-green-400 transition"><i class="fab fa-linkedin text-xl"></i></a>
+                <a href="#" class="hover:text-green-400 transition"><i class="fab fa-github text-xl"></i></a>
+                <a href="#" class="hover:text-green-400 transition"><i class="fab fa-twitter text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

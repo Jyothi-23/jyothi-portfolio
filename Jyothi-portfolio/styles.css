@@ -1,0 +1,41 @@
+/* Custom styles for the portfolio */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile menu animation */
+#mobileMenu {
+    transition: all 0.3s ease;
+}
+
+/* Smooth scrolling for anchor links */
+a[href^="#"] {
+    transition: color 0.3s ease;
+}
+
+/* Hover effects for project cards */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #16a34a;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #15803d;
+}
